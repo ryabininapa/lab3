@@ -12,7 +12,7 @@ int findFirstElement(double eps)
 		a = pow(-1, i) * ((i + 1) / (pow(i, 2) + 1));
 		if (abs(a) <= eps)
 			break;
-		else ++i;
+		++i;
 	}
 	return i;
 }
